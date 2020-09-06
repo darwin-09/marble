@@ -1,0 +1,95 @@
+/* Phone Media Queries */
+/* clear cache to appear on web browser */
+
+
+@media only screen and (max-width: 900px) {
+    .skills-container {
+        width: 50%;
+    }
+
+    .footer-item {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header-wrapper {
+        position: relative;
+    }
+
+    #web-nav {
+        background-color: #e5e5e5;
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        display: none;
+        z-index: 2;
+    }
+
+    .nav-unordered-list {
+        margin: 0;
+    }
+
+    .nav-list-item {
+        display: block;
+        padding: 20px;
+    }
+
+    .bar-1, .bar-2, .bar-3 {
+        width: 2rem;
+        height: 3px;
+        background-color: black;
+        position: relative;
+    }
+
+    .bar-2 {
+        top: 7px;
+    }
+    .bar-3 {
+        top: 13px;
+    }
+
+    #mobile-nav {
+        display: block;
+    }
+
+    /* work section */
+
+    .work-wrapper {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .work-container{
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .work-container a {
+        text-align: center;
+    }
+
+    #works h2, .work-container p {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+
+    .skills-container {
+        width: 100%;
+    }
+
+    .footer-item {
+        width: 100%;
+    }
+
+}
+
+

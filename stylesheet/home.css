@@ -1,0 +1,313 @@
+/* <header> */
+#home-header {
+    background-color: #e5e5e5;
+    width: 100%;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.web-logo {
+    margin: 16px 0;
+    padding: 0 10px;
+}
+
+.web-logo img {
+    width: 100%;
+    height: auto;
+}
+
+
+.nav-unordered-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.nav-list-item {
+    padding: 5px;
+    font-family: "roboto-condensed" , Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.list-item-links {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4e4e4e;
+}
+
+.list-item-links:hover, .active {
+    color: #7fd0c0;
+}
+
+
+#mobile-nav {
+    display: none;
+    margin: 16px 0;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+/* </header> */
+
+/* <main> */
+
+/* <section id="banner-section"> */
+
+#hero-banner {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    background: url("../images/banner.svg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-desc-container {
+    text-align: center;
+    font-family: "roboto-slab-bold", 'Times New Roman', serif;
+    padding: 0 10px;
+}
+
+.banner-desc-container h1 {
+    color: #fff;
+}
+
+.banner-desc-container h2 {
+    color: #808080;
+}
+
+.banner-desc-container a {
+    padding: 10px;
+    background-color: #3f8dbf;
+    font-family: "roboto-condensed", Arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.875rem;
+    position: relative;
+}
+
+/* </section> */
+
+/* <section id="skills"> */ 
+
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    margin: 2% auto;
+    text-align: center;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.skills-container {
+    width: 25%;
+    margin: 10px 0 20px 0;
+}
+
+.skills-container h2{
+    font-family: "roboto-slab-bold";
+    font-size: 1.125rem;
+    color: #4e4e4e;
+}
+
+.skills-container p {
+    font-family: "roboto-regular";
+    color: #616161;
+    font-size: 0.875rem;
+    padding: 0 20px;
+} 
+
+.icon-container {
+    
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    position: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.purple {
+    background-color: #9d9abf;
+}
+
+.red {
+    background-color: #d2514b;
+}
+
+.blue {
+    background-color: #66a3c6;
+}
+
+.yellow {
+    background-color: #e8c04f;
+}
+
+/* </section> */
+
+/* <section id="works"> */
+
+#works {
+    max-width: 1170px;
+    margin: 2% auto;
+}
+
+#works h2 {
+    font-size: 1.125rem;
+    font-family: "roboto-condensed";
+    text-transform: uppercase;
+    color: #4e4e4e;
+}
+
+.work-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work-container {
+    width: 32%;
+    font-family: "roboto-slab-regular";
+    font-size: 16px;
+}
+
+.work-container a {
+    text-decoration: none;
+}
+
+.work-ft-img-container img {
+    width: 100%;
+}
+
+.work-container h3 {
+    font-size: 1.125em;
+    color: #4e4e4e;
+}
+
+.work-container h4 {
+    font-size: 0.8125em;
+    color: #a8a8a8;
+    margin: 0;
+}
+
+.work-container p {
+    font-size: 0.875em;
+    color: #5c5c5c;
+}
+
+
+/* </section> */
+
+/* <section id="quotes"> */
+
+#quotes {
+    background-color: #efefef;
+    margin-top: 20px;
+}
+
+.quote-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #a1a1a1;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: "roboto-slab";
+}
+
+/* </section> */
+
+/* </main> */
+
+/* <footer> */
+
+footer {
+    background-color: #1d1d1d;
+    color: #cacaca;
+    font-family: "roboto-regular";
+    font-size: 0.875rem;
+    
+}
+
+.footer-items-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 40px 10px 20px 10px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.footer-item {
+    width: 24%;
+    line-height: 1.4;
+}
+
+.footer-item h2 {
+    color: #585858;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    font-family: "roboto-condensed";
+}
+
+.contact-items-container {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.contact-items-container span {
+    margin-left: 10px;
+}
+
+.contact-items-container a {
+    text-decoration: none;
+    color: #cacaca ;
+}
+
+.tweets {
+    display: flex;
+    align-items: top;
+    margin-bottom: 20px;
+}
+
+.tweets p {
+    margin: 0 0 0 10px;
+}
+
+.post-container {
+    margin-bottom: 20px;
+}
+
+.post-container p {
+    margin: 0 0 5px 0;
+}
+
+.copyright {
+    max-width: 1170px;
+    margin: 0 auto;
+   
+}
+
+.copyright p {
+    margin: 0;
+    padding-bottom: 4%;
+    padding-top: 4%;
+}
+
+/* </footer> */
